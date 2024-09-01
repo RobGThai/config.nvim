@@ -11,6 +11,7 @@ return {
   },
   cmd = 'Neotree',
   keys = {
+    { '<C-n><C-g>', ':Neotree float git_status<CR>', { desc = 'NeoTree GitStatus' } },
     { '<C-n>', ':Neotree toggle<CR>', { desc = 'NeoTree toggle' } },
     -- { '\\', ':Neotree reveal<CR>', { desc = 'NeoTree reveal' } },
   },
