@@ -157,7 +157,9 @@ return { -- LSP Configuration & Plugins
     local servers = {
       -- clangd = {},
       -- gopls = {},
-      pyright = {},
+      pyright = {
+        -- NOTE: Required Pyright to be installed.
+      },
       -- rust_analyzer = {},
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
       --
@@ -167,6 +169,11 @@ return { -- LSP Configuration & Plugins
       -- But for many setups, the LSP (`tsserver`) will work just fine
       -- tsserver = {},
       --
+
+      jdtls = {
+        -- NOTE: Required Eclipse's JDTLS
+        -- https://github.com/eclipse-jdtls/eclipse.jdt.ls#installation
+      },
 
       lua_ls = {
         -- cmd = {...},
