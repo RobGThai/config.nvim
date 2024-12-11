@@ -85,7 +85,8 @@ P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
 -- Setup keys and opts
-package.path = '/Users/rob/.config/nvim/lua/my_config/?.lua;' .. package.path
+package.path = '/home/poohdish/.config/nvim/lua/my_config/?.lua;' .. package.path
+-- package.path = '/Users/rob/.config/nvim/lua/my_config/?.lua;' .. package.path -- MacOS
 require 'keys'
 require 'install-lazy'
 
