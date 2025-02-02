@@ -170,10 +170,10 @@ return { -- LSP Configuration & Plugins
       -- tsserver = {},
       --
 
-      jdtls = {
-        -- NOTE: Required Eclipse's JDTLS
-        -- https://github.com/eclipse-jdtls/eclipse.jdt.ls#installation
-      },
+      -- jdtls = {
+      -- NOTE: Required Eclipse's JDTLS
+      -- https://github.com/eclipse-jdtls/eclipse.jdt.ls#installation
+      -- },
 
       lua_ls = {
         -- cmd = {...},
